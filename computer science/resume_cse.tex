@@ -1,0 +1,146 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage{hyperref}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+    {\Huge \scshape {Bhavya Bhatt}}\\
+    Mandi, Himachal Pradesh $\cdot$ bhavyabhatt17@gmail.com $\cdot$ +91 8219119315\\
+\end{center}
+
+%==== Education ====%
+\header{EDUCATION}
+\textbf{Indian Institute of Technology, Mandi}\hfill Mandi, Himachal Pradesh\\
+B. Tech., Computer Science (Aug 2016 - July 2020)\\
+ \textit{GPA: 8.03} (upto 5th Semester)\\
+\vspace{2mm}
+\textbf{Relevant Coursework:}
+Algorithms, Data Structures, Database Systems, Probability and Random
+Processes, Pattern Recognition, Distributed Systems. \\
+Current Semester(6th): Deep Learning and its application, Heterogeneous Computing (mpi, openmpi and CUDA parallel programming). \\
+\vspace{2mm}
+\textbf{Teaching Assistant:}
+for the course on Advanced Data Structures and Algorithms, and Data Science Lab.\\
+\vspace{2mm}
+
+\header{LANGUAGES AND TECHNOLOGIES}
+\begin{description}
+\item [Skills:] Python, C, C++, machine learning and related mathematics, Manifold
+Learning, android development, Javascript, php, sql(basic), bash, nodejs.
+\item [Other tools:] TensorFlow, PyTorch, Keras, Einstein’s Toolkit, Visual Studio, IBM research labs Quantum Computing Interface(little experience), Wolfram Mathematica.
+\item [Other Interests:] Stochastic and Random Process - White Noise, Weiner Process, functions of
+Weiner Process, Ito Calculus, Stochastic Differential Equation.\\
+Abstract Mathematics - Topology, Abstract Algebra, Algebraic geometry, Manifold calculus,
+Tensor Calculus, Differential Geometry, Commutative and Non-Commutative Geometry.\\
+Computational Physics - simulations on cosmological fluids, black holes and quantum systems.
+\end{description}
+\vspace{2mm}
+
+\header{PAST EXPERIENCE}
+\textbf{Siemens Technology and Services Pvt. Ltd.  :} Deep learning libraries, Software Testing -\\
+Worked as a Software Research intern in the field of shift-right approach to software testing automation using deep neural networks and generating probable test cases that a user can execute on the external service application. \\
+\vspace{2mm}
+
+\header{PROJECTS}
+\textbf{Himachal Firespot DataPackage: }android, php, javascript, sql, machine learning libraries -\\
+Forest Fire Notification App under Himachal government which provides an interface for the user to
+upload an image alert of the forest fire and then the GPS location of the sender is circulated to the
+registered authorities like fire brigades, government officials and reporters. This reduces the time to
+spot the location and prevent deaths of village people around the active forest fire region. \\
+\vspace*{2mm}
+\textbf{Euler’s Notes: }CSS templates, php, machine learning api -\\
+A web application indented for hearing impaired people. The app processes the real-time speech data
+into text and produces short summaries of the whole speech lecture with the use of machine
+learning(used extensions). It identifies main keywords and produces educational links in the same
+interface. \\
+\vspace*{2mm}
+\textbf{Other Computer Science Projects: }Nvidia CUDA parallel Platform, Nvidia GPU -\\
+Some of the self-learning project include manipulations on images using parallel algorithms like reduce,
+scan and histogram mainly on CUDA parallel platform. Other include basic quantum computing
+circuits using hermite quantum gates and play with the qubit values, mainly on IBM Online quantum
+computer. \\
+\vspace*{2mm}
+\textbf{Path Integrals, Collapse models and Classical Limit: } Path Integral Forulation of Quantum
+Mechanics, GRW Models, and simulation platform-Wolfram mathematica -\\
+A quantum mechanics foundation based project in which two new derivations of path integral
+formulations for collapse models were made to explain unobserved superposition of macroscopic objects
+and appropriate classical limit.\\
+\vspace{2mm}
+
+\header{AWARDS AND ACHIEVEMENTS}
+\textbf{TopCoder Hackathon: }Secured 1st position in TopCoder Hackathon for-Euler’s Notes.\\
+\vspace*{2mm}
+\textbf{Coauthor of a Scientific Paper in the Physical Review Journal: } The work on "path integrals, spontaneous localization and classical limit" is made in form of paper and
+submitted to the Physical Review.\\
+\vspace*{2mm}
+\vspace{2mm}
+\end{document}

@@ -1,0 +1,168 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage{hyperref}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+    {\Huge \scshape {Bhavya Bhatt}}\\
+    Mandi, Himachal Pradesh $\cdot$ bhavyabhatt17@gmail.com $\cdot$ +91 8219119315\\
+\end{center}
+
+%==== Education ====%
+\header{EDUCATION}
+\textbf{Indian Institute of Technology, Mandi}\hfill Mandi, Himachal Pradesh\\
+B. Tech., Computer Science (Aug 2016 - July 2020)\\
+ \textit{GPA: 8.32}
+\vspace{2mm}
+
+\header{RELEVANT COURSEWORK TAKEN UP}
+\textbf{Fourth Semester: }
+\begin{itemize} \itemsep 1pt
+    \item Mechanics of Particles and Waves - General introduction to Lagrangain and Hamiltonian Mechanics\\
+    \item Classical Electrodynamics\\
+    \item Continuum Mechanics - Advanced fluid dynamics, general tensor formalism, Naiver-Stokes equation, energy conditions, linear and nonlinear fluids, numerical methods for solving velocity potential field under given boundary conditions\\
+    \item Special Topics in High Energy Physics - Dirac Equation, Feynman diagrams, particle interactions and calculations of invariant amplitude (electron-positron scattering or electron-meson interaction), Quantum Electrodynamics \\
+\end{itemize}
+\textbf{Fifth Semester: }
+\begin{itemize} \itemsep 1pt
+    \item Special Topics in Quantum Mechanics - Non-relativistic and relativistic scattering theory, second quantization and related formalism, angular momentum theory and spin formalism\\
+\end{itemize}
+\textbf{Sixth Semester: }\hfill *will be completed by summer 2019
+\begin{itemize} \itemsep 1pt
+    \item Statistical Mechanics\\
+    \item Condensed Matter Physics\\
+\end{itemize}
+\vspace{2mm}
+
+\header{PROJECTS}
+\textbf{Path Integrals and Collapse Models: }\\
+For my summer research internship at TIFR (Tata Institute of Fundamental Research, Mumbai), I worked under the guidance of Dr. Tejinder Pal Singh (Senior Prof. - Dept. Of Astronomy and Astrophysics), leading a group of 5 students from various IITs. As part of the project, I had the opportunity to formulate path integral approach for some of the collapse models (mainly GRW, QMUPL and CSL models) of quantum measurement problems. While working on the formulation, I was able to find new approaches for the above stated problem (which was conventionally done by comparing the noise function and the imaginary potential in the action for the propagator) by the proper application of jump operators in every infinitesimal time interval, with appropriate probabilities (Poisson process) and also by calculating the final density matrix function(since the probabilistic model involved mixed states). We challenged the idea that the classical limit of quantum mechanics is not just planck constant tends to zero, but also some mechanism to kill superpositions (which is the reason why we don’t observe superposition in macroscopic world) which has candidate theory such as collapse models and only then we can recover classical statistical limit like Liouville equation or Hamilton-Jacobi equation. \\
+\vspace*{2mm}
+\textbf{Oscillating Potential Lattice: } \\
+I am studying for a project that involves calculating energy eigenvalues of the conduction band of a 3-D lattice having phononic model potential between each unit cell and computationally simulating the results taken under the guidance of Dr. Pradeep Kumar ( Asst. Prof - Dept of Physics IIT Mandi, Himachal Pradesh). \\
+\vspace*{2mm}
+\textbf{Non-Geodesic Raychaudhuri Equation: }\\
+Having always been fascinated by Physics, I’m currently working on an interesting and self-thought out project on formalising the stress vector being applied on cosmological fluid( fluid mechanics in Riemannian and Pseudo Riemannian geometry) and to study the motion of the resultant non-geodesic curves. It also include the formalism of the fracture point of the material, mainly using the B tensor, it’s decomposition and Raychaudhuri equation, for non-geodesic congruences. \\
+\vspace{2mm}
+\newpage
+\header{INTERESTS}
+\textbf{High-Energy Particle Physics: }\\
+In this field I have good knowledge on the topics till perturbation theory and their parallel in the Feynman path integral formulation. I have adequate insights about particle physics, mainly the Feynman diagram, different interactions and their associated particles and calculations of invariant amplitude (electron-positron scattering and electron-meson interaction). Going forward, I am further planning to deep dive into quantum field theory. \\
+\vspace*{2mm}
+\textbf{General Relativity: } \\
+I have a good know- why of topics on black holes and their basic mathematics (hypersurfaces, spatial geometry of black holes and their embeddings in 3-dimension, geodesic congruences, energy conditions, horizons, gravitational lensing, and some part of optical general relativity in reference to schwarzschild black holes) have been covered in detail. I am currently pursuing various topics related to conformal mapping and conformal diagrams of spacetime and their application in strong gravitational fields (black holes spacetime). \\
+\vspace*{2mm}
+\textbf{Cosmology: }\\
+Currently I am involved in understanding cosmological and nonlinear fluids in Riemannian geometry, their geodesic congruences and connection with the energy conditions using Einstein field equations. I am also interested in the study of various universe models, their global topology and corresponding spacetime geometries (mainly Robertson-Walker universe). While studying the topic on Einstein field equations, I came across a problem related to the opening of wormhole in outer space. My analysis of the solution revolved around the concept of  negative energy and that the geodesics of wormhole are in complete disagreement with the Raychaudhuri equation. \\
+\vspace*{2mm}
+\textbf{Abstract Mathematics: }\\
+My focus areas in this field includes topology, abstract algebra, algebraic geometry, manifold calculus, tensor calculus, differential geometry, commutative and non-commutative geometry, stochastic processes and stochastic calculus. \\
+\vspace*{2mm}
+\textbf{Computational Physics: }\\
+In this domain I have a good grasp on subjects like finite difference method to solve for velocity field potential, simulations on cosmological fluids, black holes and quantum systems(Einstein’s Toolkit). \\
+\vspace{2mm}
+
+\header{AWARDS AND ACHIEVEMENTS}
+\begin{itemize} \itemsep 1pt
+    \item Coauthor of a scientific paper submitted in the Physical Review Journal titled, “Path integrals, spontaneous localization and classical limit"\\
+    link to the paper on arXiv - \href{https://bit.ly/2AOwPsf}{Path integrals, spontaneous localisation, and classical limit}.
+    \item Speaker at Space Technology and Astronomy Cell(STAC), IIT Mandi - Astronomy and Astrophysics Department on the topic “General Relativity and Geometry in Physics” for the academic year 2017 - 2018 \\
+    \item Secured 1st position in TopCoder Hackathon for Euler’s Notes - Android based project for hearing imparied people \\
+\end{itemize}
+\vspace{2mm}
+
+\header{SKILLS}
+\textbf{Computer Science and Applied Mathematics: }\\
+Data analysis, data Mining and machine learning algorithms, deep learning and related optimization mathematics, parallel computing platforms (Nvidia CUDA, openmpi) and basic parallel algorithms, basic knowledge of quantum computing. \\
+\vspace*{2mm}
+\textbf{Other Engineering Skills: } \\
+Computer programming in Python, C, C++, C\#, Fortran, on single and multi-core machine, distributed and parallel platforms, signal processing, probability and random processes, digital electronics. \\
+\vspace*{2mm}
+\textbf{Software skills: }\\
+Have proficient knowledge in various software tools like:
+\begin{itemize} \itemsep 1pt
+    \item Scikit-learn - a free software machine learning library for the Python programming language \\
+    \item  Keras - a high-level API to build and train deep learning models \\
+    \item TensorFlow - an open-source software library for dataflow programming across a range of tasks \\
+    \item SymPy - a Python library for symbolic computation \\
+    \item Wolfram Mathematica - a modern technical computing system spanning most areas of technical computing \\
+    \item Einstein Toolkit - a community-driven software platform of core computational tools to advance and support research in relativistic astrophysics \\
+\end{itemize}
+\vspace{2mm}
+
+\header{HOBBIES}
+\begin{itemize}
+\item Sketching
+\end{itemize}
+\vspace{2mm}
+\ 
+\end{document}
