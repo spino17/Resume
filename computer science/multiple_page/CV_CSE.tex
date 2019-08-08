@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Bhavya Bhatt} % Your name
+\address{Mandi, Himachal Pradesh} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+91)~8219119315 \\ b16016@students.iitmandi.ac.in \\ www.linkedin.com/in/bhavya-bhatt \\ github.com/spino17} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology(Computer Science and Engineering)} \hfill {\em 2016 - 2020} 
+\\ Indian Institute of Technology, Mandi \hfill { Overall GPA: 7.9/10}
+\\ School of Computing and Electrical Engineering
+
+\smallskip
+
+{\bf CBSE(Higer Secondary)} \hfill {\em 2016} 
+\\ MDS Public School, Udaipur, Rajasthan \hfill { Percentage: 93.5\%}
+
+\smallskip
+
+{\bf CBSE(Matriculation)} \hfill {\em 2014} 
+\\ St. Gregorios Sen. Sec. School, Udaipur, Rajasthan \hfill { CGPA: 9.6}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages &  C, C++, Python, JAVA (for android development) \\
+Frameworks & PyTorch (Advanced), Keras (Medium), Android Studio (JAVA) \\
+Other Interest & Mathematics of Deep Learning and Machine Learning, \\
+               & Stochastic Processes, Non-Euclidean geometrical methods, \\
+               & Group Theory
+
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{June 2019 - August 2019}{Software Research Intern}{}
+\item Used program analysis tools like Atlas to run control flow analysis on large codebase which can further be used for extracting knowledge graphs.
+\item Implemented four different types (Tensor Product Composition, HOLE, ComplEx, QuatE) of Knowledge Graph embedding probabilistic architechures in PyTorch.
+\item Learned about Non-Euclidean real (for symmetric relations) and complex (for asymmetric relations) background geometries for embeddings in order to learn effective hierarchical patterns from the Knowledge Graph.
+\item Proposed a model for learnable background geometry (components of metric tensor itself are learnable parameters) along with embeddings (entity and relations) which can further be useful in manifold learning and other embedding visualization techniques. 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{December 2018 - Febraury 2019}{Software Research Intern}{}
+\item Processing internal service logs for building shift-right testing application.
+\item Used recurrent neural networks (LSTM) to predict most probable test cases which user can execute.
+\item Analyse the data for anomaly detection in the logs sequence dataset by probability estimation method.
+\item Also tested static probabilistic methods like PAM algorithm to achieve the above task. 
+\item Documented the relevant codebase and procedures.
+\end{rSubsection}
+
+%------------------------------------------------
+\newpage
+\begin{rSubsection}{Tata Institute of Fundamental Research, Mumbai}{June 2018 - July 2018}{Summer Research Intern}{}
+\item Proposed a new derivation for path integrals of collapse models and other all particle dynamics theories.
+\item Argued that $h$ tends to zero is not the limit to classical mechanics but rather some more robust mechanism to kill macroscopic superpositions.
+\item Explained that the above mechanism can be achieved through appropiate limit on collapse model parameters and formalised these limits mathematically.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Why Neural Networks work ?}{Major Technical Project}{}{}
+\item This is an Ongoing final year major technical project in the field of "Mathematics of Deep Learning".
+\item Project aims at developing new theoretical ideas which can provide mathematically formal answers to some of the profound questions in the field of deep learning.
+\item These questions include the mechanism of generalization, optimal architechures, phase transitions between memorization and compression phase etc.
+\item The project demands the need for exploring cross field topics from information theory, statistical physics, group theory and complexity theory and experiment with these ideas in code.
+\item As a result of this project, all the experimentation code is available in form of a Python library package \textbf{PyGlow} which can be installed from PyPI with command "pip install -i https://test.pypi.org/simple/ PyGlow".
+\item This library is also one of the attempts to develop keras like API in PyTorch backend.
+\end{rSubsection}
+
+\begin{rSubsection}{Himachal Firespot Datapackage}{}{}{}
+\item Forest Fire Notification App under Himachal government which provides an interface for the user to
+upload an image alert of the forest fire. 
+\item This then circulate the GPS location of the sender  to the registered authorities like fire brigades, government officials and reporters. 
+\item This reduces the time to spot the location and prevent deaths of village people around the active forest fire region. 
+\end{rSubsection}
+
+\begin{rSubsection}{Euler Notes}{$2^{nd}$ year Topcoder Hackathon}{}{}
+\item A web application indented for hearing impaired people. 
+\item The app processes the real-time speech data into text and produces short summaries of the whole speech lecture with the use of machine learning (used extensions). 
+\item It identifies main keywords and produces educational links in the same interface.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Achievements}
+\item Secured 1st position in TopCoder Hackathon for-Euler’s Notes.
+\item Secured 1st position in paper presentation and debate event held at technical fest of STAC club - Astrax 2019.
+\item Coauthor of a Scientific Paper on "path integrals, spontaneous localization and classical limit". \url{https://arxiv.org/abs/1808.04178}
+\item Secured All India Rank (AIR) 2324 in JEE Advanced (IIT-JEE) examination 2016.  
+\end{rSection}
+\newpage
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Relevant Courses}
+\itab{\textbf{Core Courses}} \tab{}  \tab{\textbf{Other Courses}}
+\\ \itab{Advanced Data Structures and Algorithms } \tab{}  \tab{Linear Algebra}
+\\ \itab{Pattern Recognition} \tab{}  \tab{Real Mathematical Analysis} 
+\\ \itab{Deep Learning and its Applications} \tab{}  \tab{Probability and Statistics} 
+\\ \itab{Advance Database Practicum} \tab{} \tab{Biotechnology}
+\\ \itab{Large Application Practicum} \tab{} \tab{Statistical Mechanics}
+\\ \itab{System Practicum (Operating System and Networking)}
+% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+\end{rSection}
+
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Speaker at STAC }{}{Space Technology and Astronomy Cell}{IIT Mandi}
+\item Held position as a speaker and gave two talks on various topics of mathematics.
+\end{rSubsection}
+
+\begin{rSubsection}{Teaching Assistant}{}{}{}
+\item for the course on Advanced Data Structures and Algorithms, and Data Science Lab.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+\item Participated in Vibgyor event organised by Art and craft club - Art Geeks, for two years (2017-2018).
+\item Participated in flash mob event in the Tech-Cult fest of IIT Mandi, Exodia.
+
+\end{rSection}
+
+\end{document}
