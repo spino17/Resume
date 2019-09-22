@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  16 JUL 2019 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  19 SEP 2019 10:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -689,8 +689,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-No file physics_CV.aux.
+)) (./physics_CV.aux)
 \openout1 = `physics_CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -707,6 +706,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -727,6 +727,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
+
+(./physics_CV.out) (./physics_CV.out)
 \@outlinefile=\write3
 \openout3 = `physics_CV.out'.
 
@@ -748,21 +750,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./physics_CV.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
-
-
-Package rerunfilecheck Warning: File `physics_CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `physics_CV.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `physics_CV.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 6091 strings out of 493029
- 84664 string characters out of 6136233
- 164570 words of memory out of 5000000
+ 6097 strings out of 493029
+ 84754 string characters out of 6136233
+ 164674 words of memory out of 5000000
  9585 multiletter control sequences out of 15000+600000
  10021 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -774,7 +769,7 @@ er/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfcc2488.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb>
-Output written on physics_CV.pdf (3 pages, 88041 bytes).
+Output written on physics_CV.pdf (3 pages, 90355 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

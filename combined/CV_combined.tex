@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Bhavya Bhatt} % Your name
+\address{Mandi, Himachal Pradesh} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+91)~8219119315 \\ b16016@students.iitmandi.ac.in \\ www.linkedin.com/in/bhavyabhatt/ \\ github.com/spino17} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology(Computer Science and Engineering)} \hfill {\em 2016 - 2020} 
+\\ Indian Institute of Technology, Mandi \hfill { Overall GPA: 8.07/10 (Upto 6th Semester)}
+\\ School of Computing and Electrical Engineering
+
+\smallskip
+
+{\bf CBSE(Higer Secondary)} \hfill {\em 2016} 
+\\ MDS Public School, Udaipur, Rajasthan \hfill { Percentage: 93.5\%}
+
+\smallskip
+
+{\bf CBSE(Matriculation)} \hfill {\em 2014} 
+\\ St. Gregorios Sen. Sec. School, Udaipur, Rajasthan \hfill { CGPA: 9.6}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages &  C, C++, Python, JAVA (for android development) \\
+Frameworks & PyTorch (Advanced), Keras (Medium), Android Studio (JAVA) \\
+Physics Interests & quantum field theory, quantum gravity and it's origins in \\ 
+                  & quantum foundations, cosmology, statistical mechanics and \\
+                  & applications in computational learning theory \\
+Mathematics Interests & differential geometry, stochastic processes and stochastic calculus\\
+               & group theory, abstract analysis, information theory \\
+
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Publications}
+
+\begin{rSubsection}{New Path integral formulation for "all particle dynamics"}{June 2018 - August 2019}{Summer Research Intern}{}
+\item Proposed a new approach for path integral formulation of collapse models like GRW and other "all particle dynamics" theories. The work resulted into a paper "Path integrals, spontaneous localization and classical limit". \url{https://arxiv.org/abs/1808.04178}.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Open Source Projects}
+
+\begin{rSubsection}{PyGlow - Information Theory of Deep Learning}{June 2019 - Present}{Author and Maintainer}{}
+\item Author and maintainer of a python library for Information Theory in Deep Learning named 'PyGlow' which is currently on its 0.1.7 version on PyPI and can be installed from \url{https://pypi.org/project/PyGlow/}.
+\item GitHub Repository is available at: \url{https://github.com/spino17/PyGlow}
+\item PyGlow documentation is available on: \url{https://pyglow.github.io/}
+\end{rSubsection}
+\begin{rSubsection}{EinsteinPy - Numerical Relativity in Python}{February 2018 - Present}{Coauthor}{}
+\item Coauthor of a python library for numerical relativity and relativistic astrophysics related computations 'EinsteinPy' - \url{https://einsteinpy.org/team/}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\newpage
+\begin{rSection}{Experience}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Tata Institute of Fundamental Research, Mumbai}{June 2018 - July 2018}{Summer Research Intern}{}
+\item Proposed a new approach for path integrals of collapse models like GRW and other "all particle dynamics theories".
+\item Argued that $h$ tends to zero is not the limit to classical mechanics but rather some more robust mechanism to kill macroscopic superpositions.
+\item Explained that the above mechanism can be achieved through appropriate limit on collapse model parameters and rigorously formalised these limits.
+\end{rSubsection}
+
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{December 2018 - Febraury 2019}{Software Research Intern}{}
+\item Processing internal service logs for building shift-right testing application.
+\item Used recurrent neural networks (LSTM) to predict most probable test cases which user can execute.
+\item Analyse the data for anomaly detection in the logs sequence dataset by probability estimation method.
+\item Also tested static probabilistic methods like PAM algorithm to achieve the above task. 
+\item Documented the relevant codebase and procedures.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{June 2019 - August 2019}{Software Research Intern}{}
+\item Used program analysis tools like Atlas to run control flow analysis on large codebase which can further be used for extracting knowledge graphs.
+\item Implemented four different types (Tensor Product Composition, HOLE, ComplEx, QuatE) of Knowledge Graph embedding probabilistic architectures in PyTorch.
+\item Learned about Non-Euclidean real (for symmetric relations) and complex (for asymmetric relations) background geometries for embedding in order to learn effective hierarchical patterns from the Knowledge Graph.
+\item Proposed a model for learnable background geometry (components of metric tensor itself are learnable parameters) along with embedding (entity and relations) which can further be useful in manifold learning and other embedding visualization techniques. 
+\end{rSubsection}
+
+\end{rSection}
+
+
+\newpage
+\begin{rSection}{Computer Science Projects}
+
+\begin{rSubsection}{Why Neural Networks work ?}{Major Technical Project}{}{}
+\item This is an Ongoing final year major technical project in the field of theoretical deep learning.
+\item Project aims at developing new theoretical methods which can provide mathematically formal answers to some of the profound questions in the field of deep learning.
+\item These questions include the mechanism of generalization, optimal architectures, phase transitions between memorization and compression phase etc.
+\item The project demands the need for exploring cross field topics from information theory, statistical physics, group theory and complexity theory and experiment with these ideas in code.
+\item As a result of this project, a python package is made named \textbf{PyGlow: Information Theory of Deep Learning}. The package can be installed from PyPI with command "pip install PyGlow".
+\item All the experimentation related to the project is done uisng PyGlow. 
+\item This package provides keras like API on PyTorch backend.
+\end{rSubsection}
+
+\begin{rSubsection}{EinsteinPy: Python package for Numerical Relativity}{Computational Physics}{}{}
+\item A web application indented for hearing impaired people. 
+\item The app processes the real-time speech data into text and produces short summaries of the whole speech lecture with the use of machine learning (used extensions). 
+\item It identifies main keywords and produces educational links in the same interface.
+\end{rSubsection}
+
+\begin{rSubsection}{Euler Notes}{$2^{nd}$ year Topcoder Hackathon}{}{}
+\item A web application indented for hearing impaired people. 
+\item The app processes the real-time speech data into text and produces short summaries of the whole speech lecture with the use of machine learning (used extensions). 
+\item It identifies main keywords and produces educational links in the same interface.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Theoretical Physics Projects}
+\begin{rSubsection}{Emergent Gravity using collapse models}{Quantum Gravity}{}{}
+\item Having always been fascinated by Physics, I’m currently working on an interesting and self-thought out project on formalising the stress vector being applied on cosmological fluid( fluid mechanics in Riemannian and Pseudo Riemannian geometry) and to study the motion of the resultant non-geodesic curves. 
+\item It also include the formalism of fracture point of the material, mainly using the B tensor, it’s decomposition and Raychaudhuri equation, for non-geodesic congruences.
+
+\end{rSubsection}
+\begin{rSubsection}{Non-Geodesic Raychaudhuri Equation }{General Relativity}{}{}
+\item Having always been fascinated by Physics, I’m currently working on an interesting and self-thought out project on formalising the stress vector being applied on cosmological fluid( fluid mechanics in Riemannian and Pseudo Riemannian geometry) and to study the motion of the resultant non-geodesic curves. 
+\item It also include the formalism of fracture point of the material, mainly using the B tensor, it’s decomposition and Raychaudhuri equation, for non-geodesic congruences.
+
+\end{rSubsection}
+\end{rSection}
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+\newpage
+\begin{rSection}{Academic Achievements}
+\item Secured 1st position in TopCoder Hackathon for-Euler’s Notes.
+\item Secured 1st position in paper presentation and debate event held at technical fest of STAC club - Astrax 2019.
+\item Secured All India Rank (AIR) 2324 in JEE Advanced (IIT-JEE) examination 2016.  
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Relevant Courses}
+\itab{\textbf{Computer Science Courses}} \tab{}  \tab{\textbf{Physics and Mathematics Courses}}
+\\ \itab{Advanced Data Structures and Algorithms } \tab{}  \tab{Special topics in Quantum Mechanics}
+\\ \itab{Pattern Recognition} \tab{}  \tab{Statistical Mechanics} 
+\\ \itab{Deep Learning and its Applications} \tab{}  \tab{Special topics in High-Energy Physics} 
+\\ \itab{Advance Database Practicum} \tab{} \tab{Continuum Mechanics}
+\\ \itab{Large Application Practicum} \tab{} \tab{Real Analysis}
+\\ \itab{System Practicum (Operating System and Networking)} \tab{} \tab{Linear Algebra}
+\\ \itab{}                                                   \tab{} \tab{Probability and Stochastic Processes}
+% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+\end{rSection}
+
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Speaker at STAC }{}{Space Technology and Astronomy Cell}{IIT Mandi}
+\item Held position as a speaker and gave two talks on various topics of mathematics.
+\end{rSubsection}
+
+\begin{rSubsection}{Teaching Assistant}{}{}{}
+\item for the course on Advanced Data Structures and Algorithms, and Data Science Lab.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+\item Participated in Vibgyor event organised by Art and craft club - Art Geeks, for two years (2017-2018).
+\item Participated in flash mob event in the Tech-Cult fest of IIT Mandi, Exodia.
+
+\end{rSection}
+
+\end{document}
