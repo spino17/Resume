@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  20 SEP 2019 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  6 OCT 2019 23:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -259,44 +259,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 33.
+
+Overfull \hbox (42.64696pt too wide) in paragraph at lines 62--74
+[][] 
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ù in font cmbx10!
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ù in font cmbx10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [3]
+Overfull \hbox (4.59003pt too wide) in paragraph at lines 178--180
+[]\OT1/cmr/m/n/10.95 EinsteinPy doc-u-men-ta-tion is avail-able on: []$\OT1/cmt
+t/m/n/10.95 https : / / docs . einsteinpy . org / en / latest / ?badge = latest
+$[] 
+ []
+
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
-
-(./CV_combined.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+ (./CV_combined.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `CV_combined.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 4788 strings out of 493029
- 71443 string characters out of 6136233
+ 4789 strings out of 493029
+ 71449 string characters out of 6136233
  159556 words of memory out of 5000000
  8326 multiletter control sequences out of 15000+600000
  7807 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,21p,331b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,21p,438b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -305,10 +319,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb>
-Output written on CV_combined.pdf (4 pages, 111790 bytes).
+Output written on CV_combined.pdf (5 pages, 116212 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
