@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Bhavya Bhatt} % Your name
+\address{Mandi, Himachal Pradesh} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+91)~8219119315 \\ b16016@students.iitmandi.ac.in \\ www.linkedin.com/in/bhavyabhatt/ \\ github.com/spino17} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology(Computer Science and Engineering)} \hfill {\em 2016 - 2020} 
+\\ Indian Institute of Technology, Mandi \hfill { Overall GPA: 8.06/10 (Up to 6th Semester)}
+\\ School of Computing and Electrical Engineering
+
+\smallskip
+
+{\bf CBSE(Higer Secondary)} \hfill {\em 2016} 
+\\ MDS Public School, Udaipur, Rajasthan \hfill { Percentage: 93.5\%}
+
+\smallskip
+
+{\bf CBSE(Matriculation)} \hfill {\em 2014} 
+\\ St. Gregorios Sen. Sec. School, Udaipur, Rajasthan \hfill { CGPA: 9.6}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages &  C, C++, Python, JAVA (for android development) \\
+Frameworks & PyTorch (Advanced), Keras (Medium), Android Studio (JAVA) \\
+Computer Science Interests & theoretical machine learning, probabilistic modelling \\ 
+                  & statistical learning theory \\
+Mathematics Interests & manifold analysis, tensor calculus, differential geometry \\
+                  & stochastic processes, group theory, abstract analysis, information theory \\
+Physics Interests & quantum field theory, quantum gravity and it's origins in \\ 
+                  & quantum foundations, cosmology, statistical mechanics and \\
+                  & applications in computational learning theory \\
+
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Relevant Courses}
+\itab{\textbf{Computer Science Courses}} \tab{}  \tab{\textbf{Physics and Mathematics Courses}}
+\\ \itab{Pattern Recognition} \tab{}  \tab{Special topics in Quantum Mechanics} 
+\\ \itab{Deep Learning and its Applications} \tab{}  \tab{Special topics in High-Energy Physics}
+\\ \itab{Advanced Data Structures and Algorithms } \tab{}  \tab{Statistical Mechanics}
+\\ \itab{Advance Database Practicum} \tab{} \tab{Continuum Mechanics}
+\\ \itab{Large Application Practicum} \tab{} \tab{Real Analysis}
+\\ \itab{System Practicum (Operating System and Networking)} \tab{} \tab{Linear Algebra}
+\\ \itab{}                                                   \tab{} \tab{Probability and Stochastic Processes}
+% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+
+
+%------------------------------------------------
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{June 2019 - August 2019}{Software Research Intern}{}
+\item Used program analysis tools like Atlas to run control flow analysis on large code base.
+\item Implemented four different types \textbf{(Tensor Product Composition, HOLE, ComplEx, QuatE)} of Knowledge Graph embedding probabilistic architectures in PyTorch.
+\item \textbf{Proposed a model for learnable background geometry} (components of metric tensor itself are learnable parameters) along with entity and relation embedding.
+\end{rSubsection}
+\newpage
+\begin{rSubsection}{Siemens Technology \& Services Pvt. Ltd.}{December 2018 - February 2019}{Software Research Intern}{}
+\item Processing internal service logs for building shift-right testing application.
+\item Used recurrent neural networks (LSTM) to predict most probable test cases which user can execute.
+\item Analyse the data for anomaly detection in the logs sequence dataset by probability estimation method.
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Tata Institute of Fundamental Research, Mumbai}{June 2018 - July 2018}{Summer Research Intern}{}
+\item  \textbf{Proposed a new approach for path integrals of collapse models} like GRW and other "all particle dynamics theories".
+\item Explained the killing of macroscopic superposition mechanism can be achieved through appropriate limit on collapse model parameters and rigorously formalised these limits.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Second-Order phase transitions in neural based learning models}{Major Technical Project}{}{}
+    \item This project is a sub part of my major technical project at IIT Mandi. This project deals with \textbf{theoretical studies of learning algorithms} for neural network models and their bifurcation limits.
+    \item Current neural based models assumes only first-order linear dependence between the attributes of data and impose non-linearity on these first-order terms.
+    \item The whole formalism shatters when there is significant \textbf{second-order dependence which can have critical phase transitive behaviour} in gradient field which in turn results in large variations across batches of data.
+    \item This project tries to formalize a new framework for such second-order learning.
+\end{rSubsection}
+
+\begin{rSubsection}{PyGlow: a Python package for information theory of deep learning}{Open Source Project}{}{}
+\item I am the author of this package and is part of an ongoing final year major technical project in the field of \textbf{”Mathematics of Deep Learning”}. The Project aims at developing new theoretical ideas for answering some of the profound questions in the field of deep learning.
+    \item These questions include the mysteries of \textbf{generalization, optimal architectures, compression phase} in context of deep neural networks.
+    \item The project demands the need for exploring cross field topics from \textbf{information theory, statistical physics, group theory and complexity theory} and experiment with these ideas in code.
+    \item As a result of this project, all the experimentation code is available in form of a Python library package \textbf{PyGlow: Information Theory of Deep Learning}.
+\end{rSubsection}
+
+\begin{rSubsection}{EinsteinPy: a Python package for Numerical Relativity}{Open Source Project}{}{}
+\item This package was founder by me and my enthusiastic batch mates who were struggling to learn \textbf{numerical relativity}.
+\item This library is first to provide support for numerical relativity and \textbf{relativistic astrophysics problems} in Python programming language.
+\item I am the physics advisor and core developer in the organisation.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Quantum Path Integrals formulation for Collapse Models}{Summer Research Project}{}{}
+\item For my summer research internship at Tata Institute of Fundamental Research, Mumbai.
+    \item The project aimed at formulating path integral approaches to some of the collapse models of quantum measurement problems.
+    \item Proposed new approaches for the above stated problem by the proper application of jump operators in every infinitesimal time interval, gave the path integrals for the theory and calculated the propagator.
+\end{rSubsection}
+
+\begin{rSubsection}{Euler Notes}{$2^{nd}$ year Topcoder Hackathon}{}{}
+\item A web application indented for hearing impaired people. 
+\item The app processes the real-time speech data into text and produces short summaries of the whole speech lecture with the use of machine learning (used extensions). 
+\item It identifies main keywords and produces educational links in the same interface.
+\end{rSubsection}
+
+\end{rSection}
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Open Source}
+GitHub Handle: spino17 , Link: \url{https://github.com/spino17} \\
+\begin{rSubsection}{PyGlow - Information Theory of Deep Learning}{June 2019 - Present}{Author and Maintainer}{}
+\item The package is currently available in 0.1.7 version on PyPI and can be installed from \url{https://pypi.org/project/PyGlow/}.
+\item GitHub Repository is available at: \url{https://github.com/spino17/PyGlow}
+\item PyGlow documentation is available on: \url{https://pyglow.github.io/}
+\end{rSubsection}
+\begin{rSubsection}{EinsteinPy - Numerical Relativity in Python}{February 2018 - Present}{Coauthor}{}
+\item Partly sponsored by \textbf{ESA (European Space Agency)}.
+\item Soon to be a sub-organization under \textbf{OpenAstronomy}.
+\item The package is currently available in 0.2.0 version on PyPI and can be installed from  \url{https://pypi.org/project/einsteinpy/}
+\item GitHub Repository is available at:
+\url{https://github.com/einsteinpy}
+\item EinsteinPy documentation is available on:
+\url{https://docs.einsteinpy.org/en/latest/?badge=latest}
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Publications}
+
+\begin{rSubsection}{Quantum Path integral formulation for "all particle dynamics"}{June 2018 - August 2019}{Summer Research Intern}{}
+\item The work at TIFR, Mumbai resulted into a paper named "Path integrals, spontaneous localization and classical limit". Link: \url{https://arxiv.org/abs/1808.04178}.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Academic Achievements}
+\item My project "Implementation of gravitational lensing in Schwarzschild hypersurface" under EinsteinPy was selected in first screening of Europe Space Agency - SOCIS 2019.
+\item Secured 1st position in TopCoder Hackathon for-Euler’s Notes.
+\item Secured 1st position in paper presentation and debate event held at technical fest of STAC club - Astrax 2019.
+\item Secured All India Rank (AIR) 2324 in JEE Advanced (IIT-JEE) examination 2016.  
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\newpage
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+\begin{rSubsection}{Mentor}{}{Summer of Code in Space}{ESA}
+\item  Held the position of \textbf{honorary-project mentor} in SOCIS (Summer of
+Code in Space) organized by ESA (European Space Agency) for
+The EinsteinPy Project.
+\end{rSubsection}
+
+\begin{rSubsection}{Lead Summer Researcher Intern}{}{TIFR}{Mumbai}
+\item  Lead the team of 5 summer research intern students working on "Path Integrals of Collapse Models" and successfully completed the project and published the results.
+\end{rSubsection}
+
+\begin{rSubsection}{Speaker at STAC }{}{Space Technology and Astronomy Cell}{IIT Mandi}
+\item Held the position of event judge for club intra-college fest "Zenith".
+\item Held many talks on various topics from artificial intelligence, mathematics and gravitational physics.
+\end{rSubsection}
+
+\begin{rSubsection}{Teaching Assistant}{}{}{}
+\item For the course on Data Science Lab and Advanced Data Structures and Algorithms.
+\end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+\item Participated in a debate event - \textbf{"Ruminating the God"} organised by College Club.
+\item Participated in Vibgyor event organised by Art and craft club - Art Geeks, for two years (2017-2018).
+\item Participated in flash mob event in the Tech-Cult fest of IIT Mandi, Exodia.
+
+\end{rSection}
+
+\end{document}
