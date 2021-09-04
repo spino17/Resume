@@ -1,2 +1,2 @@
-# Bhavya-Bhatt-Resume
+# Resume
 Updated resume 
